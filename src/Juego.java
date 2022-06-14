@@ -79,7 +79,7 @@ public class Juego {
         System.out.println(nombreDelJuego);
         System.out.println();
         System.out.println("Antes de adentrarte en esta historia, es necesario que sepas que para poder salir debes saber como jugar.");
-        System.out.println("Las acciones que vas a poder realizar son: 'go', 'in (interactuar)' y ' (observar)'.\nPara llevarlas a cabo debes escribirlas por consola, seguida de una direccion \nsi te mueves, o de un objeto si es otro caso.");
+        System.out.println("Las acciones que vas a poder realizar son: 'go', 'in (interactuar)' y 'lo (observar)'.\nPara llevarlas a cabo debes escribirlas por consola, seguida de una direccion \nsi te mueves, o de un objeto si es otro caso.");
         System.out.println("Ejemplo de comando para desplazarse: 'go abajo' ");
         System.out.println("Ejemplo de comando para observar objeto: 'lo mesa' ");
         System.out.println("Ingresa tu nombre, seguido de enter para comenzar a jugar");
