@@ -1,6 +1,6 @@
 package gameSystem;
 
-import room.R	oom;
+import room.Room;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
