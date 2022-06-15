@@ -12,7 +12,7 @@ public class Room {
     private String descripcion;
     private Map<String,Integer> coordenadas;
     private List<Objeto> objetos;
-    private static Map<Integer,Room> room = new HashMap<>();
+    private static Map<Integer,Room> rooms = new HashMap<>();
 
     public Room(String descripcion, List<Objeto> objs, Map<String, Integer> coordenadas, int id) {
         this.id = id;
