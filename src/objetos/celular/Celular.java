@@ -1,4 +1,4 @@
-package celular;
+package objetos.celular;
 
 import gameSystem.Checkpoints;
 import objetos.Objeto;
