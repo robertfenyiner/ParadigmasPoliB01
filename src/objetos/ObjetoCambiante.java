@@ -1,6 +1,6 @@
 package objetos;
 
-import objetos.Objeto;
+import objetos.ObjetoCambiante;
 
 // Esta clase es para los objetos que cambian su descripcion e interaccion, luego que el usuario interactúa con ellos
 public class ObjetoCambiante extends Objeto {
