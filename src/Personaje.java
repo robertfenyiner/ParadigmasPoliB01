@@ -1,5 +1,5 @@
 import gameSystem.Checkpoints;
-import room.Room;
+import rooms.Room;
 import objetos.Objeto;
 
 import java.util.*;
