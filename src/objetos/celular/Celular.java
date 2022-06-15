@@ -1,4 +1,4 @@
-package objetos.deVacaciones;
+package celular;
 
 import gameSystem.Checkpoints;
 import objetos.Objeto;
