@@ -51,3 +51,63 @@ public class Room {
                     roomCoordenates.put(direccionRelativa[i],idRoom);
                 }
             }
+
+            Room newRoom = null;
+
+            if (room.containsKey("bloqueada")) {
+                String description2 = (String) room.get("descripcionBloqueada");
+                newRoom = new RoomBloqueada(description, description2, roomItems, roomCoordenates, id);
+            } else {
+                newRoom = new Room(description, roomItems, roomCoordenates, id);
+            }
+
+            rooms.put(id, newRoom);
+        }
+    }
+
+    public static Room dameRoom(int id) {
+        Room room = rooms.get(id);
+
+        if (room.id == 5) {
+            Checkpoints.activarCheckpoint(1);
+        }
+
+        return rooms.get(id);
+    }
+
+    public void describir() {
+        System.out.println();
+        System.out.println(descripcion);
+
+        if (id == 7) return;
+
+        String objetosStr;
+        String coordenadasStr;
+
+        if (coordenadas.size() > 1) {
+            coordenadasStr = "Las direcciones posibles son:";
+        } else {
+            coordenadasStr = "La direccion posible es:";
+        }
+
+        System.out.println(coordenadasStr);
+
+        for (String coordenada:coordenadas.keySet()){
+            System.out.println("_ " + coordenada);
+        }
+
+        if (objetos.size() > 1) {
+            objetosStr = "Los objetos en el lugar son:";
+        } else {
+            objetosStr = "El objeto en el lugar es:";
+        }
+
+        System.out.println(objetosStr);
+
+        for (Objeto objeto:objetos) {
+            System.out.println("_ " + objeto.getNombre());
+        }
+
+        System.out.println();
+    }
+}
