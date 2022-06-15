@@ -34,7 +34,7 @@ public class Room {
     }
 
     public static void construir(JSONObject json) {
-        List<JSONObject> listaRooms = (ArrayList)json.get("rooms");
+        List<JSONObject> listaRooms = (ArrayList)json.get("room");
 
         for (JSONObject room :listaRooms) {
             int id = (int)(long) room.get("id");
