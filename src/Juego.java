@@ -1,4 +1,4 @@
-import room.*;
+import rooms.*;
 import gameSystem.*;
 
 import org.json.simple.parser.ParseException;
