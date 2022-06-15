@@ -1,5 +1,5 @@
 package gameSystem;
-import room.Room;
+import rooms.Room;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
