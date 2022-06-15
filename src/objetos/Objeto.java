@@ -1,7 +1,7 @@
 package objetos;
 
 import gameSystem.Checkpoints;
-import objetos.deVacaciones.Celular;
+import objetos.celular.Celular;
 import org.json.simple.JSONObject;
 
 import java.util.*;
